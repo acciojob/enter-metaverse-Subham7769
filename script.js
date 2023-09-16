@@ -1,4 +1,4 @@
 function Metaverse(){
-    document.getElementById("head").innerHTML = "Entered Metaverse";
+    document.getElementById("status").innerText = "Entered Metaverse";
 
 };

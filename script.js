@@ -1,4 +1,5 @@
-function Metaverse(){
-    document.getElementById("status").innerText = "Entered Metaverse";
-
-};
+let para = document.getElementById("status");
+let btn = document.getElementById("enterBtn");
+btn.addEventListener("click",() =>{
+para.innerHTML = "<h1>Entered Metaverse</h1>";
+});
